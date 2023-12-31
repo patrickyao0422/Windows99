@@ -9,8 +9,11 @@
             font-family: mc-font;
             src: url("mc-font.ttf");
         }
+        h4 {
+            text-align: center;
+        }
     </style>
-    <script src="js/req-app-1.js"></script>
+
 </head>
 <body>
     <div class="player" style="font-family: mc-font">
@@ -20,10 +23,13 @@
         <div class="main">
             <div class="desktop">
                
-                <div class="desktop-icon" id="app1">
-                    <img src="appicon/1.ico" alt="ICON" style="text-align: center;"><br>
-                    <button onclick="start()">Explorer</button>
+                <div class="desktop-icon" id="app1" onclick="alert(1)">
+                    &nbsp;&nbsp;&nbsp;<img src="appicon/1.ico" alt="ICON"><br>
+                    <h4>Explorer</h4>
                 </div>
+                <div class="desktop-icon" id="app2" onclick="alert(2)">
+                    &nbsp;&nbsp;&nbap;<img src="appicon/2.ico" alt="ICON"><br>
+                    <h4>Microsoft Edge</h4>
             </div>
             <div class="taskbar">
                 <button>Start</button>
